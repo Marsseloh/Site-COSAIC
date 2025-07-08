@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços Cosaic</title>
+    <link rel="stylesheet" href="/css/style.css"> <!--Link CSS-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Link Bootsrap -->
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="/Img/Logo COSAIC fundo branco.svg" width="100px" height="60px" alt="Logo do projeto COSAIC">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="/src/Cursos.html" class="nav-link">Cursos</a></li>
+                    <li class="nav-item"><a href="/src/Parcerias.html" class="nav-link">Parcerias</a></li>
+                    <li class="nav-item"><a href="/src/Equipe.html" class="nav-link">Equipe</a></li>
+                    <li class="nav-item"><a href="/src/Contato.html" class="nav-link">Contato</a></li>
+                </ul>
+
+            </div>
+            <hr>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" id="imagemicon" src="Img/menu_white_36dp.svg"
+                        alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="/src/Cursos.html" class="nav-link">Cursos</a></li>
+                <li class="nav-item"><a href="/src/Parcerias.html" class="nav-link">Parcerias</a></li>
+                <li class="nav-item"><a href="/src/Equipe.html" class="nav-link">Equipe</a></li>
+                <li class="nav-item"><a href="/src/Contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--Navbar completa, com responsividade-->
+
+    <main class="main-home">
+        <div style="margin-top: -33px;" class="backgound-img">
+            <div class="poligonos mx-3">
+                <h1>Nossos Cursos</h1>
+                <h2>Conheça todos os nossos Cursos!</h2>
+            </div>
+        </div>
+
+        <div class="nome-projeto">
+            <div class="text-content">
+                <h2>COSAIC</h2>
+                <p>Compartilhando Saberes e Inovação na Cibercultura</p>
+            </div>
+        </div>
+
+        <!--Utilizei uma div para cada curso com tamanho ajustado a imagem, caso precise de uma imagem menor ou maior apenas ajustar o tamanho do container. SEM RESPONSIVIDADE-->
+
+        <!--Div Cursos é para deixar todos em uma div só, n mudei nada mas pode mudar se quiser-->
+        <div class="Cursos">
+            <div style="height: 600px;" id="Formacao-de-servidores"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Formacao_de_Servidores-Municipais.jpg" alt="Imagem do nosso curso">
+                <div>
+                    <h4>Curso de Formação de Servidores Municipais ou Distritais para a Fiscalização e a Cobrança do
+                        ITR </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Neste curso, você conhecerá os normativos, os procedimentos e informações importantes para
+                        atuar na cobrança e fiscalização do ITR. O curso tem como foco, exclusivamente, a
+                        capacitação de servidores dos municípios conveniados que são designados para essa atuação em
+                        conformidade com a legislação vigente.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/194 ">https://www.escolavirtual.gov.br/curso/194
+                        </a> <!--arrumar o estilo do link-->
+                    </p>
+                </div>
+            </div>
+            <div style="height: 600px;" id="Fundamentos-do-programa"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Fundamentos_do_programa_de_gestao_e_desempenho(PGD).jpg"
+                    alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Fundamentos do Programa de Gestão e Desempenho (PGD)
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        A capacitação possui como foco apresentar os Fundamentos do Programa de Gestão e Desempenho
+                        (PGD), explorando os fundamentos do programa, bases normativas, condições necessárias e
+                        mitos envolvidos. Servidores, gestores públicos e sociedade poderão compreender os caminhos
+                        para a formalização do PGD, os desafios envolvidos para a implementação e como o Programa
+                        pode afetar as entregas à sociedade. O que se objetiva é inspirar gestores e servidores na
+                        adoção de uma nova forma de trabalho, focando na geração de valor para a sociedade.
+                    </p>
+                    <p>
+                        Link do curso:<a
+                            href="https://www.escolavirtual.gov.br/curso/1327">https://www.escolavirtual.gov.br/curso/1327</a>
+                        <!--arrumar o estilo do link-->
+                    </p>
+                </div>
+            </div>
+            <div style="height: 600px;" id="O-papel-dos-conselhos-de-admnistracao"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/O_papel_do_conselho_de_Administracao_das_empresas_estatais.jpg"
+                    alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        O Papel dos Conselhos de Administração das Empresas Estatais
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        O curso tem como finalidade apresentar a missão, competências, deveres, responsabilidades,
+                        funcionamento, remuneração, capacitação e defesa judicial e administrativa do Conselho de
+                        Administração, dentre outros. Trata também do relacionamento com outros órgãos societários
+                        da empresa estatal, além de descrever as estruturas de apoio ao colegiado.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1332">https://www.escolavirtual.gov.br/curso/1332</a>
+                        <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+            <div style="height: 600px;" id="Gestao-de-pessoas-nas-empresas-estatais"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Gestao_de_pessoas_nas_empresas_estatais.jpg" alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Gestão de Pessoas nas Empresas Estatais
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Neste curso vamos apresentar conceitos sobre o desenvolvimento de competências e de inovação
+                        na gestão de pessoas, no contexto próprio das empresas estatais.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1342">https://www.escolavirtual.gov.br/curso/1342
+                        </a> <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+            <div style="height: 600px;" id="Previdencia-complementar-aplicada-as-empresas"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Previdencia_complementar_aplicada_as_empresas_estatais.jpg"
+                    alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Previdência Complementar Aplicada às Empresas Estatais
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        O curso tem como finalidade tratar da responsabilidade dos conselheiros de administração de
+                        empresas estatais federais em relação aos fundos de pensão, apresentando as competências dos
+                        órgãos regulatórios e fiscalizadores, as normas mais relevantes vigentes, bem como
+                        introduzir conceitos sobre previdência complementar.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1343 ">https://www.escolavirtual.gov.br/curso/1343</a>
+                        <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+            <div style="height: 600px;" id="Elaboracao-de-planos-de-entregas-e-de-trabalho-do-PGD"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Elaboracao_de_planos_de_entregas_e_de_trabalho_do_PGD.jpg"
+                    alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Elaboração de Planos de Entregas e de Trabalho do PGD
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Aprenda a fazer os planos de entregas e a pactuar planos de trabalho com os membros da sua
+                        equipe para organizar o trabalho e alcançar resultados do PGD.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1344 ">https://www.escolavirtual.gov.br/curso/1344</a>
+                        <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+
+            <div style="height: 600px;" id="Conceitos-basicos-de-financas-e-contabilidade"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Conceitos_basicos_de_financas_e_contabilidades_para_empresas_estatais.jpg"
+                    alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Conceitos Básicos de Finanças e Contabilidade para Empresas Estatais
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Neste curso você conhecerá os principais fundamentos de contabilidade e finanças, ferramentas
+                        essenciais para uma gestão embasada em empresas estatais. Aqui, você encontrará conceitos e
+                        práticas que o ajudarão a entender melhor o cenário contábil-financeiro da empresa,
+                        proporcionando mais segurança na análise dos dados financeiros e, consequentemente, na tomada de
+                        decisões.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1345">https://www.escolavirtual.gov.br/curso/1345</a>
+                        <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+            <div style="height: 600px;" id="Introducao-a-governanca-de-empresas-estatais"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Introducao_a_governanca_das_empresas_estatais.jpg" alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Introdução à Governança das Empresas Estatais
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Este curso oferece uma compreensão ampla sobre empresas e propriedades estatais, abordando seu
+                        arcabouço legal, governança e impacto no desenvolvimento econômico, social e ambiental do
+                        Brasil. De forma clara e prática, discutiremos como a governança pública pode garantir uma
+                        gestão alinhada aos objetivos dessas organizações e exploraremos novas perspectivas sobre seu
+                        papel estratégico nas economias modernas.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1346">https://www.escolavirtual.gov.br/curso/1346</a>
+                        <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+            <div style="height: 600px;" id="Comunicacao-assertiva"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Comunicacao_acertiva_horatoria_Retorica_e_tecnicas_de_apresentacao.jpg"
+                    alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Comunicação Assertiva: Oratória, Retórica e Técnicas de Apresentação
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Neste curso, você vai compreender e aplicar os princípios da comunicação assertiva em diferentes
+                        contextos culturais, utilizando elementos e estratégias de retórica e oratória para formular
+                        argumentos eficazes e engajar o público-alvo.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1347">https://www.escolavirtual.gov.br/curso/1347</a>
+                        <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+            <div style="height: 600px;" id="Integridade-gestao-de-riscos-e-controle-em-empresas-estatais"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Integridade_gestao_de_riscos_e_controle_de_empresas_estatais.jpg"
+                    alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Integridade, gestão de riscos e controle em empresas estatais
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Neste curso, você irá desenvolver a compreensão da governança, integridade, gestão de riscos e
+                        controle organizacional no contexto das empresas estatais, para promoção de práticas alinhadas à
+                        legislação vigente, à entrega de valor público e ao fortalecimento da cultura de integridade,
+                        com foco na estruturação de controles internos e na atuação dos órgãos de controle interno e
+                        externo.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1378 ">https://www.escolavirtual.gov.br/curso/1378
+                        </a> <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+
+            <div style="height: 600px;" id="Orcamento-das-empresas-estatais"
+                class="container d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded float-start me-5"
+                    src="/Img/Img-Cursos/Orcamento_das_empresas_estatais.jpg" alt="Imagem do nosso curso">
+                <div>
+                    <h4>
+                        Orçamento das Empresas Estatais
+                    </h4>
+                    <p style="margin-top: 30px;" class="p">
+                        Este curso tem como objetivo geral qualificar a atuação dos Conselheiros de Administração das
+                        Empresas Estatais a partir do domínio de conceitos básicos de gestão orçamentária e financeira
+                        das empresas. Com carga horária prevista de 10h, aborda temas centrais em Gestão Pública e
+                        Orçamento e Finanças, tocando também em Políticas Públicas e Regulação.
+                    </p>
+                    <p>
+                        Link do curso: <a
+                            href="https://www.escolavirtual.gov.br/curso/1379 ">https://www.escolavirtual.gov.br/curso/1379
+                        </a> <!--arrumar o estilo do link-->
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!--Arrumar as fontes e o texto dessa div, apenas para exemplo-->
+    <div style="margin-top: 100px; height: 250px;" class="container bg- text-center py-3 px-3">
+
+        <div style="height: 100px;" class="container text-center py-3">
+            <img src="/Img/Logo COSAIC fundo branco.svg" width="100px" height="60px" alt="Logo do projeto COSAIC">
+        </div>
+
+        <p class="mb-0">Rua Maria Cristina, 50 - Câmpus Cubatão<br>
+            Cosaic - Compartilhando Saberes e Inovação na Cibercultura. <br>
+            CEP 11533-160 Cubatão - São Paulo - Brasil.<br>
+        </p>
+    </div>
+    <footer class="text-black text-center py-3">
+        <div class="container">
+            <p class="mb-0">© Copyrigth 2025, Todos os direitos
+                reservados. Cosaic.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> <!--Link JS bootstrap caso precise-->
+</body>
+
+</html>
