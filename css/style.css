@@ -13,6 +13,9 @@
     /*cor utilizada para links da navbar */
     --cor2: #00cc91;
     /*cor utilizada para fundo do Botão de menu */
+    --cor3: #09f610;
+    --cor3-1: #37c76d;
+    --cor4: rgb(180, 180, 180);
 }
 
 body {
@@ -27,7 +30,7 @@ header {
     position: fixed;
     z-index: 2;
     background-color: #fff;
-    border-bottom: 2px solid rgb(214, 212, 212);
+    border-bottom: 2px solid var(--cor4);
 }
 
 .nav-bar {
@@ -232,8 +235,44 @@ header {
     margin: 20px;
 }
 
+.Cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .Cursos img {
     width: 600px;
+}
+
+.curso {
+    position: relative;
+    border: 2px solid var(--cor4);
+    border-radius: 50px;
+    box-shadow: 3px 3px 4px var(--cor4);
+    height: 400px;
+    transition: 0.5s;
+}
+
+.curso:hover {
+    transform: translateX(-10px) translateY(-10px);
+    box-shadow: 10px 10px 7px var(--cor4);
+}
+
+.link-curso {
+    position: absolute;
+    right: 4em;
+    background-color: var(--cor1);
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.link-curso:hover {
+    color: #fff;
+    background-color: var(--cor3);
 }
 
 footer {
