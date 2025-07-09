@@ -259,6 +259,21 @@ header {
     box-shadow: 10px 10px 7px var(--cor4);
 }
 
+.Integrante_equipe {
+    margin-bottom: 100px;
+    position: relative;
+    border: 2px solid var(--cor4);
+    border-radius: 50px;
+    box-shadow: 3px 3px 4px var(--cor4);
+    height: 400px;
+    transition: 0.5s;
+}
+
+.Integrante_equipe:hover {
+    transform: translateX(-10px) translateY(-10px);
+    box-shadow: 10px 10px 7px var(--cor4);
+}
+
 .link-curso {
     position: absolute;
     right: 4em;
