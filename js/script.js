@@ -9,3 +9,30 @@ function menuShow() {
         document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
     }
 }
+
+//Ler mais
+var button = document.getElementById('ler-mais');
+
+button.addEventListener('click', function () {
+    var card = document.querySelector('.nossos-servicos');
+
+    card.classList.toggle('active');
+
+    if (card.classList.contains('active')) {
+        return button.textContent = 'Ler menos';
+    }
+
+    button.textContent = 'Ler mais';
+});
+
+var buttonCurso = document.getElementById('curso-ler-mais');
+
+buttonCurso.addEventListener('click', function () {
+    var card = document.querySelector('.curso');
+
+    card.classList.toggle('active2');
+
+    if (card.classList.contains('active')) {
+        return buttonCurso.textContent = 'Ler menos';
+    }
+});
