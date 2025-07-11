@@ -1,15 +1,13 @@
 //Função para mostrar o botão da navbar, verificar lógica se puder
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
-    document.querySelector('.icon').src = "../img/menu_white_36dp.svg";
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "../img/menu_white_36dp.svg";
+        document.querySelector('.icon').src = "../Img/menu_white_36dp.svg";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "../img/close_white_36dp.svg";
+        document.querySelector('.icon').src = "../Img/close_white_36dp.svg";
     }
-
 }
 
 //Ler mais
