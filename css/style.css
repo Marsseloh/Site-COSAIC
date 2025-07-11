@@ -93,7 +93,7 @@ header {
 .backgound-img-index {
     /*Imagem provisória*/
     position: relative;
-    background-image: url("/Img/Ilustracao-index-2k.jpg");
+    background-image: url("../Img/Ilustracao-index-2k.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -104,7 +104,7 @@ header {
 .backgound-img-contato {
     /*Imagem provisória*/
     position: relative;
-    background-image: url("/Img/Background-contato.jpg");
+    background-image: url("../Img/Background-contato.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -115,7 +115,7 @@ header {
 .backgound-img-cursos {
     /*Imagem provisória*/
     position: relative;
-    background-image: url("/Img/Background-cursos-2k.jpg");
+    background-image: url("../Img/Background-cursos-2k.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -126,7 +126,7 @@ header {
 .backgound-img-parcerias {
     /*Imagem provisória*/
     position: relative;
-    background-image: url("/Img/Background-parcerias.jpg");
+    background-image: url("../Img/Background-parcerias.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -137,7 +137,7 @@ header {
 .backgound-img-equipe {
     /*Imagem provisória*/
     position: relative;
-    background-image: url("/Img/Background-equipe.jpg");
+    background-image: url("../Img/Background-equipe.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -176,6 +176,15 @@ header {
 .main-home {
     flex-grow: 1;
     top: 100;
+}
+
+.carousel-item {
+    width: 100px;
+    height: 500px;
+}
+
+.carousel-item img {
+    width: 500px;
 }
 
 .nome-projeto {
