@@ -89,10 +89,54 @@ header {
 }
 
 
-.backgound-img {
+.backgound-img-index {
     /*Imagem provisória*/
     position: relative;
-    background-image: url("/Img/Imagem-temporária.jpg");
+    background-image: url("/Img/Ilustracao-index-2k.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.backgound-img-contato {
+    /*Imagem provisória*/
+    position: relative;
+    background-image: url("/Img/Background-contato.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.backgound-img-cursos {
+    /*Imagem provisória*/
+    position: relative;
+    background-image: url("/Img/Background-cursos-2k.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.backgound-img-parcerias {
+    /*Imagem provisória*/
+    position: relative;
+    background-image: url("/Img/Background-parcerias.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.backgound-img-equipe {
+    /*Imagem provisória*/
+    position: relative;
+    background-image: url("/Img/Background-equipe.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -331,15 +375,19 @@ header {
     box-shadow: 3px 3px 4px var(--cor4);
     height: 400px;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Integrante_equipe img {
+    width: 300px;
 }
 
 .Integrante_equipe:hover {
     transform: translateX(-10px) translateY(-10px);
     box-shadow: 10px 10px 7px var(--cor4);
-}
-
-#curso-ler-mais {
-    display: none;
 }
 
 .link-curso {
@@ -357,6 +405,16 @@ header {
 .link-curso:hover {
     color: #fff;
     background-color: var(--cor3);
+}
+
+.carousel-inner {
+    margin-left: 28%;
+}
+
+.Textos_Parcerias {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 footer {
@@ -462,11 +520,6 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .Cursos {
         display: flex;
         flex-direction: column;
@@ -494,60 +547,44 @@ footer {
         margin: 0;
     }
 
-    .curso-text-content {
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .curso-text-content::before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 200px;
-        background: linear-gradient(transparent, #fff);
-        z-index: 1;
-    }
-
     .link-curso {
         position: relative;
     }
 
-    .curso p {
-        font-size: 16px;
+    .carousel-inner {
+        margin: 0;
     }
 
-    #curso-ler-mais {
-        display: block;
-        position: relative;
-        bottom: 100px;
-        left: 40%;
-        border: none;
-        background: none;
-        font-size: 16px;
-        transition: 1s;
-        margin-top: 100px;
-    }
-
-    #curso-ler-mais::before {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 0px;
-        background-color: var(--cor1);
-        bottom: 0;
-        left: 45%;
-        border-radius: 3px;
-        transition: 0.3s;
-        cursor: pointer;
-    }
-
-    .curso.active2 .curso-text-content {
+    .Integrante_equipe {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: none;
         height: auto;
+        padding: 50px;
     }
 
-    .curso.active2 .curso-text-content::before {
-        visibility: hidden;
+    .Equipe {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+        padding: 20px;
     }
+
+    .Integrante_equipe img {
+        width: 250px;
+    }
+
+    .slide {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide img {
+        width: 300px;
+        margin-left: 20px;
+    }
+
 }

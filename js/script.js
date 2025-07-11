@@ -32,7 +32,7 @@ buttonCurso.addEventListener('click', function () {
 
     card.classList.toggle('active2');
 
-    if (card.classList.contains('active')) {
+    if (card.classList.contains('active2')) {
         return buttonCurso.textContent = 'Ler menos';
     }
 });
