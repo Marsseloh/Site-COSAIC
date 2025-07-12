@@ -61,10 +61,15 @@ header {
     margin: 0 10px;
 }
 
+#imagemicon
+{
+    background-color: #000 !important;
+}
+
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: var(--cor1) !important;
+    color: black !important;
     animation: texto-header;
     animation-duration: 1s;
 }
