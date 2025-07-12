@@ -162,7 +162,7 @@ header {
 
 .poligonos h1 {
     color: #000;
-    text-align: right;
+    text-align: center;
     font-size: 4em;
     font-weight: 300;
     animation: surgimento-vertical;
@@ -171,7 +171,7 @@ header {
 
 .poligonos h2 {
     color: #000;
-    text-align: right;
+    text-align: center;
     font-size: 2em;
     font-weight: 300;
     animation: surgimento-vertical;
