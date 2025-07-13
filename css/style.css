@@ -61,8 +61,7 @@ header {
     margin: 0 10px;
 }
 
-#imagemicon
-{
+#imagemicon {
     background-color: #000 !important;
 }
 
@@ -109,7 +108,7 @@ header {
 .backgound-img-contato {
     /*Imagem provisória*/
     position: relative;
-    background-image: url("../Img/Background-contato.jpg");
+    background-image: url("../Img/Contato-fundo.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
